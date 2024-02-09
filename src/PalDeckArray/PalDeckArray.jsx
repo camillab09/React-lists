@@ -228,4 +228,3 @@ export const pals = [
   { number: 110, name: "Frostallion", element: "Ice", img: Frostallion },
   { number: 111, name: "Jetragon", element: "Dragon", img: Jetragon },
 ];
-console.log(pals);
