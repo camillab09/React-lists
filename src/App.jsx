@@ -2,13 +2,14 @@ import { pals } from "./PalDeckArray/PalDeckArray.jsx";
 import "./App.css";
 
 const PalDeck = () => (
-  <div>
+  <div className="mainDiv">
+    <h1 className="pal-title">Paldex</h1>
     {pals.map((pal) => (
-      <div key={pal.number}>
+      <div className="PalContainer" key={pal.number}>
         <h1>{pal.number}</h1>
         <h2>{pal.name}</h2>
         <br />
-        <img src={pal.img} alt={pal.name} />
+        <img src={pal.img} alt={pal.name} className="images" />
         <br />
         <p>{pal.element}</p>
       </div>
