@@ -1,25 +1,31 @@
-import {pals} from "./PalDeckArray/PalDeckArray.jsx"
-import './App.css'
+import { pals } from "./PalDeckArray/PalDeckArray.jsx";
+import "./App.css";
 
-const PalDeck = pals.map(pal =>
+const PalDeck = () => (
   <div>
-    <h1>(pal.number)</h1>
-    <h2>(pal.name)</h2>
-    <br></br>
-    <img src="pal.img"></img>
-    <br></br>
-    <p>(pal.element)</p>
+    {pals.map((pal) => (
+      <div key={pal.number}>
+        <h1>{pal.number}</h1>
+        <h2>{pal.name}</h2>
+        <br />
+        <img src={pal.img} alt={pal.name} />
+        <br />
+        <p>{pal.element}</p>
+      </div>
+    ))}
+  </div>
+);
 
-  </div>)
 function App() {
   return (
     <div>
-   {pals}
+      <PalDeck />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
+
 /*funksjon.map((value) =>{
 lager et nytt element for hver verdi i arrayet
 }) */
