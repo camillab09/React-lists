@@ -12,7 +12,7 @@ import Penking from "../PalDeckImages/Penking.webp";
 import Jolthog from "../PalDeckImages/Jolthog.webp";
 import Gumoss from "../PalDeckImages/Gumoss.webp";
 import Vixy from "../PalDeckImages/Vixy.webp";
-import Hootcrates from "../PalDeckImages/Hootcrates.webp";
+import Hootcrates from "../PalDeckImages/Hoocrates.webp";
 import Teafant from "../PalDeckImages/Teafant.webp";
 import Depresso from "../PalDeckImages/Depresso.webp";
 import Cremis from "../PalDeckImages/Cremis.webp";
