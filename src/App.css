@@ -20,7 +20,7 @@
   height: 200px;
   width: 225px;
   gap: 5px;
-  padding: 0;
+  padding: 1px;
   margin: 0;
   border: 2px solid rgb(108, 105, 105);
   border-radius: 40px;
@@ -66,4 +66,18 @@
 }
 .PalElement {
   font-size: 12px;
+}
+@media screen and (max-width: 500px) {
+  .PalContainer {
+    height: 150px;
+    width: 165px;
+  }
+  .PalTitle {
+    margin-top: 4px;
+    font-size: 12px;
+    gap: 8px;
+  }
+  .PalImages {
+    max-height: 80px;
+  }
 }
