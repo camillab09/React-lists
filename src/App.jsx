@@ -10,8 +10,23 @@ const PalDeck = () => (
           <h2 className="PalNumber">{pal.number}</h2>
           <h2 className="PalName">{pal.name}</h2>
         </div>
-        <img src={pal.img} alt={pal.name} className="PalImages" />
-        <p className="PalElement">{pal.element}</p>
+        <div className="PalImageContainer">
+          <img src={pal.img} alt={pal.name} className="PalImages" />
+          <div className="PalElementContainer">
+            <img
+              src={pal.elementImg}
+              alt={pal.element}
+              className="PalElementImg"
+            />
+            <p className="PalElement">{pal.element}</p>
+            <img
+              src={pal.elementImg2}
+              alt={pal.element2}
+              className="PalElementImg"
+            />
+            <p className="PalElement">{pal.element2}</p>
+          </div>
+        </div>
       </div>
     ))}
   </div>
@@ -25,6 +40,14 @@ function App() {
       <div className="mainDiv">
         <PalDeck />
       </div>
+      <footer>
+        <p>
+          Palworld is copyright of Pocketpair inc. This page is for
+          entertainment purposes only.
+          <br /> All images sourced from
+          <a href="https://palworld.fandom.com/wiki/Paldeck">Palworld Wiki</a>
+        </p>
+      </footer>
     </>
   );
 }

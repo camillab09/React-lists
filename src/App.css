@@ -8,7 +8,6 @@
   display: flex;
   width: 100vw;
   justify-content: center;
-  border: 2px solid blue;
 }
 .PalDeckDiv {
   gap: 10px;
@@ -16,7 +15,6 @@
   display: flex;
   justify-content: center;
   margin: 10px auto;
-  border: 2px solid red;
 }
 .PalContainer {
   height: 200px;
@@ -24,17 +22,17 @@
   gap: 5px;
   padding: 0;
   margin: 0;
-  border: 2px solid green;
+  border: 2px solid rgb(108, 105, 105);
   border-radius: 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  box-shadow: 10px 10px 8px rgb(22, 22, 22);
 }
 .PalTitle {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  border: 2px solid yellow;
   margin: 0;
   padding: 0;
 }
@@ -48,16 +46,24 @@
 }
 
 .PalImages {
-  height: 40%;
+  max-height: 100px;
   object-fit: contain;
   margin: 0;
   padding: 0;
   max-width: max-content;
   justify-content: center;
-  border: 2px solid orange;
+}
+.PalElementContainer {
+  height: 22px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+.PalElementImg {
+  height: 20px;
 }
 .PalElement {
-  border: 2px solid purple;
-  margin: 0;
-  padding: 0;
+  font-size: 12px;
 }
