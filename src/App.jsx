@@ -1,17 +1,17 @@
 import { pals } from "./PalDeckArray/PalDeckArray.jsx";
+
 import "./App.css";
 
 const PalDeck = () => (
-  <div className="mainDiv">
-    <h1 className="pal-title">Paldex</h1>
+  <div className="PalDeckDiv">
     {pals.map((pal) => (
       <div className="PalContainer" key={pal.number}>
-        <h1>{pal.number}</h1>
-        <h2>{pal.name}</h2>
-        <br />
-        <img src={pal.img} alt={pal.name} className="images" />
-        <br />
-        <p>{pal.element}</p>
+        <div className="PalTitle">
+          <h2 className="PalNumber">{pal.number}</h2>
+          <h2 className="PalName">{pal.name}</h2>
+        </div>
+        <img src={pal.img} alt={pal.name} className="PalImages" />
+        <p className="PalElement">{pal.element}</p>
       </div>
     ))}
   </div>
@@ -19,9 +19,13 @@ const PalDeck = () => (
 
 function App() {
   return (
-    <div>
-      <PalDeck />
-    </div>
+    <>
+      <h1 className="pal-title">Paldex</h1>
+
+      <div className="mainDiv">
+        <PalDeck />
+      </div>
+    </>
   );
 }
 
