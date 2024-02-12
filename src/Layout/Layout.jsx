@@ -3,7 +3,7 @@ import "../App.css";
 export function Layout(properties) {
   return (
     <div>
-      <h1 className="pal-title">Paldex</h1>
+      <h1 className="pal-title">Paldeck</h1>
 
       <div className="mainDiv">{properties.children}</div>
       <footer>
