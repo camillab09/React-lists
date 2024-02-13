@@ -13,4 +13,5 @@ Ideas to improve the page
     the materials required to build as well as needed equipment and required 
     research points to unlock
 * An overview of the different materials and how to aquire them
+* Searchbar
 * 
