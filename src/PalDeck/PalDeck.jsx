@@ -1,4 +1,4 @@
-import { pals } from "../PalDeckArray/PalDeckArray.jsx";
+import { pals } from "../PalDeckArray/PalDeckArray.js";
 import "../App.css";
 export function PalDeck() {
   return (
