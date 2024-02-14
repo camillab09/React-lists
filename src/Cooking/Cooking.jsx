@@ -6,7 +6,7 @@ export function RecipeBook() {
       {recipes.map((recipe) => (
         <div className="cookingContainer" key={recipe.dish}>
           <div className="cookingTitle">
-            <h2 className="recipe">{recipe.dish}</h2>
+            <h3 className="recipe">{recipe.dish}</h3>
             <p className="cooker">{recipe.cooker}</p>
           </div>
           <div className="cookingImageContainer">
@@ -15,13 +15,15 @@ export function RecipeBook() {
               alt={recipe.dish}
               className="cookingImages"
             />
-            <div className="cookingStats">
-              <p className="nutrition">Nutrition: {recipe.nutrition}</p>
-              <p className="sanity">Sanity: {recipe.sanity}</p>
-              <p className="buffs">Buffs: {recipe.buffs}</p>
-            </div>
-            <div className="cookingIngredients">
-              <p className="ingredients">{recipe.ingredients}</p>
+            <div className="cookingInfo">
+              <div className="cookingStats">
+                <p className="nutrition">Nutrition: {recipe.nutrition}</p>
+                <p className="sanity">Sanity: {recipe.sanity}</p>
+                <p className="buffs">Buffs: {recipe.buffs}</p>
+              </div>
+              <div className="cookingIngredients">
+                <p className="ingredients">Ingredients: {recipe.ingredients}</p>
+              </div>
             </div>
           </div>
         </div>
