@@ -1,5 +1,6 @@
 Ideas to improve the page
 
+* Add the B-variants of the pals to the main array (cryst, ignis, lux, terra, aqua, noct)
 * A popper element that reveals more info on each pal
 * Update the array to include the following (with icons if possible):
     * Dropped items
