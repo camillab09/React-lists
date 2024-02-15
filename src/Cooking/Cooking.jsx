@@ -25,7 +25,12 @@ export function RecipeBook() {
                 <p className="buffs">{recipe.buffs}</p>
               </div>
               <div className="cookingIngredients">
-                <p className="ingredients">Ingredients: {recipe.ingredients}</p>
+                <p className="ingredients">Ingredients:</p>
+                <ul>
+                  {recipe.ingredients.map((ingredient, index) => (
+                    <li key={index}>{ingredient}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>

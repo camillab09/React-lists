@@ -36,9 +36,7 @@ button {
   font-size: 20px;
   background-color: #0e0e0e;
 }
-/*button {
-  border: 2px solid grey;
-}*/
+
 a:any-link {
   text-decoration: none;
   color: white;
