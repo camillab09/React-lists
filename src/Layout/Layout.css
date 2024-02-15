@@ -1,0 +1,42 @@
+body {
+  background-color: #0e0e0e;
+}
+
+.pal-title {
+  font-size: 50px;
+  background-color: #0e0e0e;
+}
+.bodyDiv {
+  background-color: #0e0e0e;
+}
+nav {
+  background-color: #0e0e0e;
+}
+.mainDiv {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  background-color: #0e0e0e;
+}
+.navbarButtons {
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  background-color: #0e0e0e;
+}
+button {
+  height: max-content;
+  width: max-content;
+  border: none;
+  padding: 10px 15px;
+  margin-left: 10px;
+  border-radius: 20px 20px 0px 0px;
+  font-size: 20px;
+  background-color: #0e0e0e;
+}
+a:any-link {
+  text-decoration: none;
+  color: white;
+}

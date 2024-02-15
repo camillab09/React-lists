@@ -3,18 +3,18 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #242424;
+  background-color: #0e0e0e;
   color: white;
 }
 body {
-  background-color: #242424;
+  background-color: #0e0e0e;
   font-family: Arial, Helvetica, sans-serif;
 }
 .mainDiv {
   display: flex;
   width: 100vw;
   justify-content: center;
-  background-color: #242424;
+  background-color: #0e0e0e;
 }
 .cookingDiv {
   gap: 10px;
@@ -22,7 +22,7 @@ body {
   display: flex;
   justify-content: center;
   margin: 10px auto;
-  background-color: #242424;
+  background-color: #0e0e0e;
 }
 .cookingContainer {
   height: 330px;

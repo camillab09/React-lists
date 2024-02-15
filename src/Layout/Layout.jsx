@@ -1,19 +1,20 @@
 import "../Cooking/Cooking.css";
 import { Link, Outlet } from "react-router-dom";
+import "./Layout.css";
 
 export function Layout(properties) {
   return (
-    <div>
+    <div className="bodyDiv">
       <nav>
         <h1 className="pal-title">Paldeck</h1>
-        <ul>
-          <li>
+        <div className="navbarButtons">
+          <button>
             <Link to="/">PalDeck</Link>
-          </li>
-          <li>
+          </button>
+          <button>
             <Link to="/cooking">Cooking</Link>
-          </li>
-        </ul>
+          </button>
+        </div>
       </nav>
 
       <div className="mainDiv">

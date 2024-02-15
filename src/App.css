@@ -3,29 +3,21 @@
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #242424;
+  background-color: #0e0e0e;
   color: white;
 }
 body {
-  background-color: #242424;
+  background-color: #0e0e0e;
   font-family: Arial, Helvetica, sans-serif;
 }
-.pal-title {
-  font-size: 50px;
-}
-.mainDiv {
-  display: flex;
-  width: 100vw;
-  justify-content: center;
-  background-color: #242424;
-}
+
 .PalDeckDiv {
   gap: 10px;
   flex-wrap: wrap;
   display: flex;
   justify-content: center;
   margin: 10px auto;
-  background-color: #242424;
+  background-color: #0e0e0e;
 }
 .PalContainer {
   height: 200px;
@@ -38,8 +30,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 10px 10px 8px rgb(22, 22, 22);
-  background-color: #242424;
+  box-shadow: 10px 10px 8px rgb(0, 0, 0);
+  background-color: #323232;
 }
 .PalTitle {
   display: flex;
@@ -48,17 +40,17 @@ body {
   margin: 0;
   margin-top: 10px;
   padding: 0;
-  background-color: #242424;
+  background-color: #323232;
 }
 .PalNumber {
   margin: 0;
   padding: 0;
-  background-color: #242424;
+  background-color: #323232;
 }
 .PalName {
   margin: 0;
   padding: 0;
-  background-color: #242424;
+  background-color: #323232;
 }
 
 .PalImages {
@@ -68,7 +60,7 @@ body {
   padding: 0;
   max-width: max-content;
   justify-content: center;
-  background-color: #242424;
+  background-color: #323232;
 }
 .PalElementContainer {
   height: 22px;
@@ -77,14 +69,14 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 5px;
-  background-color: #242424;
+  background-color: #323232;
 }
 .PalElementImg {
   height: 20px;
 }
 .PalElement {
   font-size: 12px;
-  background-color: #242424;
+  background-color: #323232;
 }
 @media screen and (max-width: 500px) {
   .PalContainer {
