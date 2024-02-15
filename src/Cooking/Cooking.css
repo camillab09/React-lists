@@ -77,10 +77,19 @@ body {
   align-items: center;
   justify-content: center;
   margin-top: 1px;
-  background-color: #242424;
+  width: 200px;
+  flex-wrap: wrap;
+
   padding: 0;
   border: none;
-  border-radius: 50%;
+
+  font-weight: 700;
+}
+.nutritionAndSanity {
+  display: flex;
+  gap: 20px;
+  background-color: #454444;
+  padding: 0px 30px;
 }
 
 @media screen and (max-width: 500px) {

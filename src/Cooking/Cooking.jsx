@@ -17,9 +17,12 @@ export function RecipeBook() {
             />
             <div className="cookingInfo">
               <div className="cookingStats">
-                <p className="nutrition">Nutrition: {recipe.nutrition}</p>
-                <p className="sanity">Sanity: {recipe.sanity}</p>
-                <p className="buffs">Buffs: {recipe.buffs}</p>
+                <div className="nutritionAndSanity">
+                  <p className="nutrition">Nutrition: {recipe.nutrition}</p>
+                  <p className="sanity">Sanity: {recipe.sanity}</p>
+                </div>
+
+                <p className="buffs">{recipe.buffs}</p>
               </div>
               <div className="cookingIngredients">
                 <p className="ingredients">Ingredients: {recipe.ingredients}</p>
