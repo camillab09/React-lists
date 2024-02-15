@@ -1,5 +1,5 @@
 import { pals } from "./PalDeckArray";
-import "../App.css";
+import "./PalDeck.css";
 export function PalDeck() {
   return (
     <div className="PalDeckDiv">

@@ -6,7 +6,7 @@ export function Layout(properties) {
   return (
     <div className="bodyDiv">
       <nav>
-        <h1 className="pal-title">Paldeck</h1>
+        <h1 className="title">Paldeck</h1>
         <div className="navbarButtons">
           <button>
             <Link to="/">PalDeck</Link>
