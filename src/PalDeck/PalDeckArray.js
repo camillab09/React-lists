@@ -10,7 +10,7 @@ import Rooby from "./PalDeckImages/Rooby.webp";
 import Pengullet from "./PalDeckImages/Pengullet.webp";
 import Penking from "./PalDeckImages/Penking.webp";
 import Jolthog from "./PalDeckImages/Jolthog.webp";
-import JolthogCryst from "./PalDeckImages/JolthogCryst.webp"
+import JolthogCryst from "./PalDeckImages/Jolthog_Cryst.webp"
 import Gumoss from "./PalDeckImages/Gumoss.webp";
 import Vixy from "./PalDeckImages/Vixy.webp";
 import Hoocrates from "./PalDeckImages/Hoocrates.webp";
