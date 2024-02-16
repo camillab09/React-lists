@@ -963,7 +963,7 @@ export const pals = [
   {
     number: 89,
     variant: "B",
-    name: "Kingpaca",
+    name: "Kingpaca Cryst",
     elementImg: Ice,
     element: "Ice",
     img: KingpacaCryst,
