@@ -7,6 +7,7 @@ export function PalDeck() {
         <div className="PalContainer" key={pal.number}>
           <div className="PalTitle">
             <h2 className="PalNumber">{pal.number}</h2>
+            <h2 className="PalNumber">{pal.variant}</h2>
             <h2 className="PalName">{pal.name}</h2>
           </div>
           <div className="PalImageContainer">

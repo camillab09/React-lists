@@ -132,13 +132,14 @@ body {
 
 @media screen and (max-width: 500px) {
   .cookingContainer {
-    height: 18rem;
-    width: 12rem;
+    height: 22rem;
+    width: 10rem;
   }
   .cookingTitle {
     margin-top: 4px;
     font-size: 12px;
-    gap: 8px;
+    gap: 5px;
+  
   }
   .cookingImages {
     max-height: 80px;
