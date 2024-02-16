@@ -8,7 +8,7 @@ import BakedMushrooms from "./CookingImages/Baked_Mushroom_icon.webp";
 import Bread from "./CookingImages/Bread_icon.webp";
 import BroiledDumud from "./CookingImages/Broiled_Dumud_icon.webp";
 import BroncherryRibRoast from "./CookingImages/Broncherry_Rib_Roast_icon.webp";
-import Cake from "./CookingImages/Cake_icon.webp";
+import Cake from "./CookingImages/Cake_icon.webp"; 
 import Carbonara from "./CookingImages/Carbonara_icon.webp";
 import ChikipiSaute from "./CookingImages/Chikipi_Saute_icon.webp";
 import DumudChowder from "./CookingImages/Dumud_Chowder_icon.webp";
