@@ -70,13 +70,13 @@
 }
 @media screen and (max-width: 500px) {
   .PalContainer {
-    height: 150px;
+    height: 160px;
     width: 165px;
   }
   .PalTitle {
     margin-top: 4px;
-    font-size: 12px;
-    gap: 8px;
+    font-size: 10px;
+    gap: 6px;
   }
   .PalImages {
     max-height: 80px;
