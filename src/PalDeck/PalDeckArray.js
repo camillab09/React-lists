@@ -10,6 +10,7 @@ import Rooby from "./PalDeckImages/Rooby.webp";
 import Pengullet from "./PalDeckImages/Pengullet.webp";
 import Penking from "./PalDeckImages/Penking.webp";
 import Jolthog from "./PalDeckImages/Jolthog.webp";
+import JolthogCryst from "./PalDeckImages/Jolthog_Cryst.webp"
 import Gumoss from "./PalDeckImages/Gumoss.webp";
 import Vixy from "./PalDeckImages/Vixy.webp";
 import Hoocrates from "./PalDeckImages/Hoocrates.webp";
@@ -22,6 +23,7 @@ import Nox from "./PalDeckImages/Nox.webp";
 import Fuddler from "./PalDeckImages/Fuddler.webp";
 import Killamari from "./PalDeckImages/Killamari.webp";
 import Mau from "./PalDeckImages/Mau.webp";
+import MauCryst from "./PalDeckImages/Mau_Cryst.webp"
 import Celaray from "./PalDeckImages/Celaray.webp";
 import Direhowl from "./PalDeckImages/Direhowl.webp";
 import Tocotoco from "./PalDeckImages/Tocotoco.webp";
@@ -29,23 +31,30 @@ import Flopie from "./PalDeckImages/Flopie.webp";
 import Mozzarina from "./PalDeckImages/Mozzarina.webp";
 import Bristla from "./PalDeckImages/Bristla.webp";
 import Gobfin from "./PalDeckImages/Gobfin.webp";
+import GobfinIgnis from "./PalDeckImages/Gobfin_Ignis.webp"
 import Hangyu from "./PalDeckImages/Hangyu.webp";
+import HangyuCryst from "./PalDeckImages/Hangyu_Cryst.webp"
 import Mossanda from "./PalDeckImages/Mossanda.webp";
+import MossandaLux from "./PalDeckImages/Mossanda_Lux.webp"
 import Woolipop from "./PalDeckImages/Woolipop.webp";
 import Caprity from "./PalDeckImages/Caprity.webp";
 import Melpaca from "./PalDeckImages/Melpaca.webp";
 import Eikthyrdeer from "./PalDeckImages/Eikthyrdeer.webp";
+import EikthyrdeerTerra from "./PalDeckImages/Eikthyrdeer_Terra.webp"
 import Nitewing from "./PalDeckImages/Nitewing.webp";
 import Ribbuny from "./PalDeckImages/Ribbuny.webp";
 import Incineram from "./PalDeckImages/Incineram.webp";
+import IncineramNoct from "./PalDeckImages/Incineram_Noct.webp"
 import Cinnamoth from "./PalDeckImages/Cinnamoth.webp";
 import Arsox from "./PalDeckImages/Arsox.webp";
 import Dumud from "./PalDeckImages/Dumud.webp";
 import Cawgnito from "./PalDeckImages/Cawgnito.webp";
 import Leezpunk from "./PalDeckImages/Leezpunk.webp";
+import LeezpunkIgnis from "./PalDeckImages/Leezpunk_Ignis.webp"
 import Loupmoon from "./PalDeckImages/Loupmoon.webp";
 import Galeclaw from "./PalDeckImages/Galeclaw.webp";
 import Robinquill from "./PalDeckImages/Robinquill.webp";
+import RobinquillTerra from "./PalDeckImages/Robinquill_Terra.webp"
 import Gorirat from "./PalDeckImages/Gorirat.webp";
 import Beegarde from "./PalDeckImages/Beegarde.webp";
 import Elizabee from "./PalDeckImages/Elizabee.webp";
@@ -56,19 +65,23 @@ import Chillet from "./PalDeckImages/Chillet.webp";
 import Univolt from "./PalDeckImages/Univolt.webp";
 import Foxcicle from "./PalDeckImages/Foxcicle.webp";
 import Pyrin from "./PalDeckImages/Pyrin.webp";
+import PyrinNoct from "./PalDeckImages/Pyrin_Noct.webp"
 import Reindrix from "./PalDeckImages/Reindrix.webp";
 import Rayhound from "./PalDeckImages/Rayhound.webp";
 import Kitsun from "./PalDeckImages/Kitsun.webp";
 import Dazzi from "./PalDeckImages/Dazzi.webp";
 import Lunaris from "./PalDeckImages/Lunaris.webp";
 import Dinossom from "./PalDeckImages/Dinossom.webp";
+import DinossomLux from "./PalDeckImages/Dinossom_Lux.webp"
 import Surfent from "./PalDeckImages/Surfent.webp";
+import SurfentTerra from "./PalDeckImages/Surfent_Terra.webp"
 import Maraith from "./PalDeckImages/Maraith.webp";
 import Digtoise from "./PalDeckImages/Digtoise.webp";
 import Tombat from "./PalDeckImages/Tombat.webp";
 import Lovander from "./PalDeckImages/Lovander.webp";
 import Flambelle from "./PalDeckImages/Flambelle.webp";
 import Vanwyrm from "./PalDeckImages/Vanwyrm.webp";
+import VanwyrmCryst from "./PalDeckImages/Vanwyrm_Cryst.webp"
 import Bushi from "./PalDeckImages/Bushi.webp";
 import Beakon from "./PalDeckImages/Beakon.webp";
 import Ragnahawk from "./PalDeckImages/Ragnahawk.webp";
@@ -78,17 +91,26 @@ import Verdash from "./PalDeckImages/Verdash.webp";
 import Vaelet from "./PalDeckImages/Vaelet.webp";
 import Sibelyx from "./PalDeckImages/Sibelyx.webp";
 import Elphidran from "./PalDeckImages/Elphidran.webp";
+import ElphidranAqua from "./PalDeckImages/Elphidran_Aqua.webp"
 import Kelpsea from "./PalDeckImages/Kelpsea.webp";
+import KelpseaIgnis from "./PalDeckImages/Kelpsea_Ignis.webp"
 import Azurobe from "./PalDeckImages/Azurobe.webp";
 import Cryolinx from "./PalDeckImages/Cryolinx.webp";
 import Blazehowl from "./PalDeckImages/Blazehowl.webp";
+import BlazehowlNoct from "./PalDeckImages/Blazehowl_Noct.webp"
 import Relaxaurus from "./PalDeckImages/Relaxaurus.webp";
+import RelaxaurusLux from "./PalDeckImages/Relaxaurus_Lux.webp"
 import Broncherry from "./PalDeckImages/Broncherry.webp";
+import BroncherryAqua from "./PalDeckImages/Broncherry_Aqua.webp"
 import Petallia from "./PalDeckImages/Petallia.webp";
 import Reptyro from "./PalDeckImages/Reptyro.webp";
+import ReptyroCryst from "./PalDeckImages/Ice_Reptyro.webp"
 import Kingpaca from "./PalDeckImages/Kingpaca.webp";
+import KingpacaCryst from "./PalDeckImages/Ice_Kingpaca.webp"
 import Mammorest from "./PalDeckImages/Mammorest.webp";
+import MammorestCryst from "./PalDeckImages/Mammorest_Cryst.webp"
 import Wumpo from "./PalDeckImages/Wumpo.webp";
+import WumpoBotan from "./PalDeckImages/Wumpo_Botan.webp"
 import Warsect from "./PalDeckImages/Warsect.webp";
 import Fenglope from "./PalDeckImages/Fenglope.webp";
 import Felbat from "./PalDeckImages/Felbat.webp";
@@ -99,15 +121,19 @@ import Astegon from "./PalDeckImages/Astegon.webp";
 import Menasting from "./PalDeckImages/Menasting.webp";
 import Anubis from "./PalDeckImages/Anubis.webp";
 import Jormuntide from "./PalDeckImages/Jormuntide.webp";
+import JormuntideIgnis from "./PalDeckImages/Jormuntide_Ignis.webp"
 import Suzaku from "./PalDeckImages/Suzaku.webp";
+import SuzakuAqua from "./PalDeckImages/Suzaku_Aqua.webp"
 import Grizzbolt from "./PalDeckImages/Grizzbolt.webp";
 import Lyleen from "./PalDeckImages/Lyleen.webp";
+import LyleenNoct from "./PalDeckImages/Lyleen_Noct.webp"
 import Faleris from "./PalDeckImages/Faleris.webp";
 import Orserk from "./PalDeckImages/Orserk.webp";
 import Shadowbeak from "./PalDeckImages/Shadowbeak.webp";
 import Paladius from "./PalDeckImages/Paladius.webp";
 import Necromus from "./PalDeckImages/Necromus.webp";
 import Frostallion from "./PalDeckImages/Frostallion.webp";
+import FrostallionNoct from "./PalDeckImages/Frostallion_Noct.webp"
 import Jetragon from "./PalDeckImages/Jetragon.webp";
 
 import Dark from "./PalElements/Dark.webp";
@@ -210,6 +236,14 @@ export const pals = [
     img: Jolthog,
   },
   {
+    number: 12,
+    variant: "B",
+    name: "Jolthog Cryst",
+    elementImg: Ice,
+    element: "Ice",
+    img: JolthogCryst,
+  },
+  {
     number: 13,
     name: "Gumoss",
     elementImg: Grass,
@@ -296,6 +330,14 @@ export const pals = [
     img: Mau,
   },
   {
+    number: 24,
+    variant: "B",
+    name: "Mau Cryst",
+    elementImg: Ice,
+    element: "Ice",
+    img: MauCryst,
+  },
+  {
     number: 25,
     name: "Celaray",
     elementImg: Water,
@@ -345,6 +387,14 @@ export const pals = [
     img: Gobfin,
   },
   {
+    number: 31,
+    variant: "B",
+    name: "Gobfin Ignis",
+    elementImg: Fire,
+    element: "Fire",
+    img: GobfinIgnis,
+  },
+  {
     number: 32,
     name: "Hangyu",
     elementImg: Ground,
@@ -352,11 +402,27 @@ export const pals = [
     img: Hangyu,
   },
   {
+    number: 32,
+    variant: "B",
+    name: "Hangyu Cryst",
+    elementImg: Ice,
+    element: "Ice",
+    img: HangyuCryst,
+  },
+  {
     number: 33,
     name: "Mossanda",
     elementImg: Grass,
     element: "Grass",
     img: Mossanda,
+  },
+  {
+    number: 33,
+    variant: "B",
+    name: "Mossanda Lux",
+    elementImg: Electric,
+    element: "Electric",
+    img: MossandaLux,
   },
   {
     number: 34,
@@ -387,6 +453,14 @@ export const pals = [
     img: Eikthyrdeer,
   },
   {
+    number: 37,
+    variant: "B",
+    name: "Eikthyrdeer Terra",
+    elementImg: Ground,
+    element: "Ground",
+    img: EikthyrdeerTerra,
+  },
+  {
     number: 38,
     name: "Nitewing",
     elementImg: Neutral,
@@ -408,6 +482,14 @@ export const pals = [
     elementImg2: Dark,
     element2: "Dark",
     img: Incineram,
+  },
+  {
+    number: 40,
+    variant: "B",
+    name: "Incineram Noct",
+    elementImg: Dark,
+    element: "Dark",
+    img: IncineramNoct,
   },
   {
     number: 41,
@@ -445,6 +527,14 @@ export const pals = [
     img: Leezpunk,
   },
   {
+    number: 45,
+    variant: "B",
+    name: "Leezpunk Ignis",
+    elementImg: Fire,
+    element: "Fire",
+    img: LeezpunkIgnis,
+  },
+  {
     number: 46,
     name: "Loupmoon",
     elementImg: Dark,
@@ -464,6 +554,16 @@ export const pals = [
     elementImg: Grass,
     element: "Grass",
     img: Robinquill,
+  },
+  {
+    number: 48,
+    variant: "B",
+    name: "Robinquill Terra",
+    elementImg: Grass,
+    element: "Grass /",
+    elementImg2: Ground,
+    element2: "Ground",
+    img: RobinquillTerra,
   },
   {
     number: 49,
@@ -538,6 +638,16 @@ export const pals = [
     img: Pyrin,
   },
   {
+    number: 58,
+    variant: "B",
+    name: "Pyrin Noct",
+    elementImg: Fire,
+    element: "Fire /",
+    elementImg2: Dark,
+    element2: "Dark",
+    img: PyrinNoct,
+  },
+  {
     number: 59,
     name: "Reindrix",
     elementImg: Ice,
@@ -582,11 +692,29 @@ export const pals = [
     img: Dinossom,
   },
   {
+    number: 64,
+    variant: "B",
+    name: "Dinossom Lux",
+    elementImg: Electric,
+    element: "Electric /",
+    elementImg2: Dragon,
+    element2: "Dragon",
+    img: DinossomLux,
+  },
+  {
     number: 65,
     name: "Surfent",
     elementImg: Water,
     element: "Water",
     img: Surfent,
+  },
+  {
+    number: 65,
+    variant: "B",
+    name: "Surfent Terra",
+    elementImg: Ground,
+    element: "Ground",
+    img: SurfentTerra,
   },
   {
     number: 66,
@@ -631,6 +759,16 @@ export const pals = [
     elementImg2: Dark,
     element2: "Dark",
     img: Vanwyrm,
+  },
+  {
+    number: 71,
+    variant: "B",
+    name: "Vanwyrm Cryst",
+    elementImg: Ice,
+    element: "Ice /",
+    elementImg2: Dark,
+    element2: "Dark",
+    img: VanwyrmCryst,
   },
   {
     number: 72,
@@ -696,11 +834,29 @@ export const pals = [
     img: Elphidran,
   },
   {
+    number: 80,
+    variant: "B",
+    name: "Elphidran Aqua",
+    elementImg: Dragon,
+    element: "Dragon /",
+    elementImg2: Water,
+    element2: "Water",
+    img: ElphidranAqua,
+  },
+  {
     number: 81,
     name: "Kelpsea",
     elementImg: Water,
     element: "Water",
     img: Kelpsea,
+  },
+  {
+    number: 81,
+    variant: "B",
+    name: "Kelpsea Ignis",
+    elementImg: Fire,
+    element: "Fire",
+    img: KelpseaIgnis,
   },
   {
     number: 82,
@@ -726,6 +882,16 @@ export const pals = [
     img: Blazehowl,
   },
   {
+    number: 84,
+    variant: "B",
+    name: "Blazehowl Noct",
+    elementImg: Fire,
+    element: "Fire /",
+    elementImg2: Dark,
+    element2: "Dark",
+    img: BlazehowlNoct,
+  },
+  {
     number: 85,
     name: "Relaxaurus",
     elementImg: Dragon,
@@ -735,11 +901,31 @@ export const pals = [
     img: Relaxaurus,
   },
   {
+    number: 85,
+    variant: "B",
+    name: "Relaxaurus Lux",
+    elementImg: Dragon,
+    element: "Dragon /",
+    elementImg2: Electric,
+    element2: "Electric",
+    img: RelaxaurusLux,
+  },
+  {
     number: 86,
     name: "Broncherry",
     elementImg: Grass,
     element: "Grass",
     img: Broncherry,
+  },
+  {
+    number: 86,
+    variant: "B",
+    name: "Broncherry Aqua",
+    elementImg: Grass,
+    element: "Grass /",
+    elementImg2: Water,
+    element2: "Water",
+    img: BroncherryAqua,
   },
   {
     number: 87,
@@ -758,11 +944,29 @@ export const pals = [
     img: Reptyro,
   },
   {
+    number: 88,
+    variant: "B",
+    name: "Reptyro Cryst",
+    elementImg: Ice,
+    element: "Ice /",
+    elementImg2: Ground,
+    element2: "Ground",
+    img: ReptyroCryst,
+  },
+  {
     number: 89,
     name: "Kingpaca",
     elementImg: Neutral,
     element: "Neutral",
     img: Kingpaca,
+  },
+  {
+    number: 89,
+    variant: "B",
+    name: "Kingpaca Cryst",
+    elementImg: Ice,
+    element: "Ice",
+    img: KingpacaCryst,
   },
   {
     number: 90,
@@ -772,11 +976,27 @@ export const pals = [
     img: Mammorest,
   },
   {
+    number: 90,
+    variant: "B",
+    name: "Mammorest Cryst",
+    elementImg: Ice,
+    element: "Ice",
+    img: MammorestCryst,
+  },
+  {
     number: 91,
     name: "Wumpo",
     elementImg: Ice,
     element: "Ice",
     img: Wumpo,
+  },
+  {
+    number: 91,
+    variant: "B",
+    name: "Wumpo Botan",
+    elementImg: Grass,
+    element: "Grass",
+    img: WumpoBotan,
   },
   {
     number: 92,
@@ -857,11 +1077,29 @@ export const pals = [
     img: Jormuntide,
   },
   {
+    number: 101,
+    variant: "B",
+    name: "Jormuntide Ignis",
+    elementImg: Dragon,
+    element: "Dragon /",
+    elementImg2: Fire,
+    element2: "Fire",
+    img: JormuntideIgnis,
+  },
+  {
     number: 102,
     name: "Suzaku",
     elementImg: Fire,
     element: "Fire",
     img: Suzaku,
+  },
+  {
+    number: 102,
+    variant: "B",
+    name: "Suzaku Aqua",
+    elementImg: Water,
+    element: "Water",
+    img: SuzakuAqua,
   },
   {
     number: 103,
@@ -876,6 +1114,14 @@ export const pals = [
     elementImg: Grass,
     element: "Grass",
     img: Lyleen,
+  },
+  {
+    number: 104,
+    variant: "B",
+    name: "Lyleen Noct",
+    elementImg: Dark,
+    element: "Dark",
+    img: LyleenNoct,
   },
   {
     number: 105,
@@ -920,6 +1166,14 @@ export const pals = [
     elementImg: Ice,
     element: "Ice",
     img: Frostallion,
+  },
+  {
+    number: 110,
+    variant: "B",
+    name: "Frostallion Noct",
+    elementImg: Dark,
+    element: "Dark",
+    img: FrostallionNoct,
   },
   {
     number: 111,
