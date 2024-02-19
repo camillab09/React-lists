@@ -1,8 +1,19 @@
-# React + Vite
+Ideas to improve the page:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<strike>\* Add the B-variants of the pals to the main array (cryst, ignis, lux, terra, aqua, noct)</strike>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- A popper element that reveals more info on each pal
+- Update the array to include the following (with icons if possible):
+  - Dropped items
+  - Farmed items
+  - Work abilities
+- A seperate page for breeding
+- A page that includes a map that shows where to find the bosses,
+  what levels they are and what type (embed https://mapgenie.io/palworld/maps/palpagos-islands ?)
+  <strike>- A page dedicated to cooking and recipes with abilities/ stat boosts </strike>
+- A copy of the in-game technology tree with a hover effect that shows
+  the materials required to build as well as needed equipment and required
+  research points to unlock
+- An overview of the different materials and how to aquire them
+- Searchbar
+-
